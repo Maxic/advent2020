@@ -13,12 +13,13 @@ def main():
         for i in expenses:
             index += 1
             for j in range(index, expenses.__len__()):
-                pairs.append((i,expenses[j]))
+                pairs.append((i, expenses[j]))
 
         # check what 3 numbers add up to 2020
         for pair in pairs:
+
             leftover = 2020 - (pair[0] + pair[1])
-            if expenses.__contains__(leftover):
+            if leftover in expenses:
                 print(leftover * pair[0] * pair[1])
                 break
 
