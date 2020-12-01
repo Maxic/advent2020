@@ -1,4 +1,4 @@
-# Advent of Code 2019
+# Advent of Code 2020
 Repository for the Advent of Code challenge 2020
 
 <p align="center">
