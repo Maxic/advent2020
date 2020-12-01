@@ -5,6 +5,7 @@ def main():
 
         for item in content:
             print(item)
+            print('test')
 
 
 if __name__ == "__main__":
